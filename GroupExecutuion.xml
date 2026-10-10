@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="SwagLabs Group Execution Suite">
+
+    <test name="Functional Integration Negative Smoke System Tests">
+
+        <groups>
+            <run>
+                <include name="functional"/>
+                <include name="integration"/>
+                <include name="negative"/>
+                <include name="smoke"/>
+                <include name="system"/>
+            </run>
+        </groups>
+        
+       
+        <classes>
+            <class name="SwagLabsLoginPage.LoginPage"/>
+            <class name="SwagLabsProductPage.ProductPage"/>
+            <class name="SwagLabsCartPage.CartPage"/>
+            <class name="SwagLabsCheckOutPage.CheckoutPage"/>
+            <class name="SwagLabsHamburgerMenuPage.HamburgerMenuPage"/>
+        </classes>
+ 
+
+    </test>
+
+</suite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [SwagLabs Parallel Execution Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="SwagLabs Parallel Tests(failed)">
+    <classes>
+      <class name="SwagLabsHamburgerMenuPage.HamburgerMenuPage">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="loginToApplication"/>
+          <include name="beforeSuite"/>
+          <include name="verifyResetAppStateSmokeTest"/>
+          <include name="closeBrowser"/>
+          <include name="AfterSuite"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- SwagLabsHamburgerMenuPage.HamburgerMenuPage -->
+    </classes>
+  </test> <!-- SwagLabs Parallel Tests(failed) -->
+</suite> <!-- Failed suite [SwagLabs Parallel Execution Suite] -->

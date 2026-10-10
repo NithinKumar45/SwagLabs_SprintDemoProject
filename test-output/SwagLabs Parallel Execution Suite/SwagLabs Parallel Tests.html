@@ -1,0 +1,634 @@
+<html>
+<head>
+<title>TestNG:  SwagLabs Parallel Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>SwagLabs Parallel Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>39/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Oct 09 09:37:38 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>166 seconds (166338 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='SwagLabsHamburgerMenuPage.HamburgerMenuPage.verifyResetAppStateSmokeTest()'><b>verifyResetAppStateSmokeTest</b><br>Test class: SwagLabsHamburgerMenuPage.HamburgerMenuPage</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;[class=&apos;shopping_cart_badge&apos;]&quot;}
+  (Session info: chrome=154.0.8037.98)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b9a2129eb6a86745911d96c52710a088, findElement {value=[class=&apos;shopping_cart_badge&apos;], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.98, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: C:\Users\harin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:28425}, goog:processID: 27896, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:28425/devtoo..., se:cdpVersion: 154.0.8037.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b9a2129eb6a86745911d96c52710a088
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:429)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:423)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.isDisplayed(Unknown Source)
+	at SwagLabsPomPages.ProductPomPage.isCartBadgeDisplayed(ProductPomPage.java:95)
+	at SwagLabsHamburgerMenuPage.HamburgerMenuPage.verifyResetAppStateSmokeTest(HamburgerMenuPage.java:171)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1996984642", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1996984642'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;[class=&apos;shopping_cart_badge&apos;]&quot;}
+  (Session info: chrome=154.0.8037.98)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b9a2129eb6a86745911d96c52710a088, findElement {value=[class=&apos;shopping_cart_badge&apos;], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.98, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: C:\Users\harin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:28425}, goog:processID: 27896, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:28425/devtoo..., se:cdpVersion: 154.0.8037.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b9a2129eb6a86745911d96c52710a088
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:429)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:423)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.isDisplayed(Unknown Source)
+	at SwagLabsPomPages.ProductPomPage.isCartBadgeDisplayed(ProductPomPage.java:95)
+	at SwagLabsHamburgerMenuPage.HamburgerMenuPage.verifyResetAppStateSmokeTest(HamburgerMenuPage.java:171)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
+<td>13</td>
+<td>SwagLabsHamburgerMenuPage.HamburgerMenuPage@15de0b3c</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='SwagLabsProductPage.ProductPage.verifyFilterDropDownSmokeTest()'><b>verifyFilterDropDownSmokeTest</b><br>Test class: SwagLabsProductPage.ProductPage<br/>
+<a href="#Output-1629393436" onClick='toggleBox("Output-1629393436", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1629393436" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1629393436">
+Random filter option selected and product added succesfully: Price (low to high)<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>SwagLabsProductPage.ProductPage@74e52ef6</td></tr>
+<tr>
+<td title='SwagLabsCartPage.CartPage.verifyRemovedProductNotInCart()'><b>verifyRemovedProductNotInCart</b><br>Test class: SwagLabsCartPage.CartPage<br/>
+<a href="#Output-594373934" onClick='toggleBox("Output-594373934", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-594373934" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-594373934">
+Product was removed from Cart successfully<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>SwagLabsCartPage.CartPage@6ed3ccb2</td></tr>
+<tr>
+<td title='SwagLabsLoginPage.LoginPage.verifyBlankPassword()'><b>verifyBlankPassword</b><br>Test class: SwagLabsLoginPage.LoginPage<br/>
+<a href="#Output-1969930286" onClick='toggleBox("Output-1969930286", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1969930286" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1969930286">
+Blank password validation verified<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>SwagLabsLoginPage.LoginPage@3b0090a4</td></tr>
+<tr>
+<td title='SwagLabsProductPage.ProductPage.verifyProductToCartNavigation()'><b>verifyProductToCartNavigation</b><br>Test class: SwagLabsProductPage.ProductPage<br/>
+<a href="#Output-836373151" onClick='toggleBox("Output-836373151", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-836373151" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-836373151">
+Product Page successfully navigated to Cart Page with selected product<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>SwagLabsProductPage.ProductPage@74e52ef6</td></tr>
+<tr>
+<td title='SwagLabsLoginPage.LoginPage.verifyBlankUsername()'><b>verifyBlankUsername</b><br>Test class: SwagLabsLoginPage.LoginPage<br/>
+<a href="#Output-489824634" onClick='toggleBox("Output-489824634", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-489824634" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-489824634">
+Blank username validation verified<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>SwagLabsLoginPage.LoginPage@3b0090a4</td></tr>
+<tr>
+<td title='SwagLabsCheckOutPage.CheckoutPage.verifyCheckoutCompleteToHomeIntegration()'><b>verifyCheckoutCompleteToHomeIntegration</b><br>Test class: SwagLabsCheckOutPage.CheckoutPage<br/>
+<a href="#Output-1801841900" onClick='toggleBox("Output-1801841900", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1801841900" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1801841900">
+Checkout Complete successfully navigated back to Product Page<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>SwagLabsCheckOutPage.CheckoutPage@1a677343</td></tr>
+<tr>
+<td title='SwagLabsLoginPage.LoginPage.verifyValidLogin()'><b>verifyValidLogin</b><br>Test class: SwagLabsLoginPage.LoginPage<br/>
+<a href="#Output-44727335" onClick='toggleBox("Output-44727335", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-44727335" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-44727335">
+Valid login successful<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>SwagLabsLoginPage.LoginPage@3b0090a4</td></tr>
+<tr>
+<td title='SwagLabsCartPage.CartPage.verifyEmptyCart()'><b>verifyEmptyCart</b><br>Test class: SwagLabsCartPage.CartPage<br/>
+<a href="#Output-1332223399" onClick='toggleBox("Output-1332223399", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1332223399" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1332223399">
+Empty Cart is displayed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>SwagLabsCartPage.CartPage@6ed3ccb2</td></tr>
+<tr>
+<td title='SwagLabsHamburgerMenuPage.HamburgerMenuPage.verifyHamburgerMenuOptionsDisplayed()'><b>verifyHamburgerMenuOptionsDisplayed</b><br>Test class: SwagLabsHamburgerMenuPage.HamburgerMenuPage<br/>
+<a href="#Output-2065040515" onClick='toggleBox("Output-2065040515", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2065040515" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2065040515">
+All Items, Logout and Reset App State options are displayed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>SwagLabsHamburgerMenuPage.HamburgerMenuPage@15de0b3c</td></tr>
+<tr>
+<td title='SwagLabsCartPage.CartPage.verifyAddedProductVisibleInCart()'><b>verifyAddedProductVisibleInCart</b><br>Test class: SwagLabsCartPage.CartPage<br/>
+<a href="#Output-717472340" onClick='toggleBox("Output-717472340", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-717472340" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-717472340">
+Sauce Labs Backpack is displayed in Cart Page successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>SwagLabsCartPage.CartPage@6ed3ccb2</td></tr>
+<tr>
+<td title='SwagLabsProductPage.ProductPage.verifyCartNavigationWithEmptyCart()'><b>verifyCartNavigationWithEmptyCart</b><br>Test class: SwagLabsProductPage.ProductPage<br/>
+<a href="#Output-1138427906" onClick='toggleBox("Output-1138427906", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1138427906" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1138427906">
+Empty Cart navigation handled correctly<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>SwagLabsProductPage.ProductPage@74e52ef6</td></tr>
+<tr>
+<td title='SwagLabsHamburgerMenuPage.HamburgerMenuPage.verifyCompleteHamburgerMenuWorkflow()'><b>verifyCompleteHamburgerMenuWorkflow</b><br>Test class: SwagLabsHamburgerMenuPage.HamburgerMenuPage<br/>
+<a href="#Output-638959116" onClick='toggleBox("Output-638959116", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-638959116" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-638959116">
+Complete Hamburger Menu system workflow from Login to Logout executed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>29</td>
+<td>SwagLabsHamburgerMenuPage.HamburgerMenuPage@15de0b3c</td></tr>
+<tr>
+<td title='SwagLabsCheckOutPage.CheckoutPage.verifyCheckoutOverviewToCheckoutCompleteIntegration()'><b>verifyCheckoutOverviewToCheckoutCompleteIntegration</b><br>Test class: SwagLabsCheckOutPage.CheckoutPage<br/>
+<a href="#Output-1558164294" onClick='toggleBox("Output-1558164294", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1558164294" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1558164294">
+Checkout Overview successfully completed the order and displayed confirmation<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>SwagLabsCheckOutPage.CheckoutPage@1a677343</td></tr>
+<tr>
+<td title='SwagLabsHamburgerMenuPage.HamburgerMenuPage.verifyLogoutNavigatesToLoginPage()'><b>verifyLogoutNavigatesToLoginPage</b><br>Test class: SwagLabsHamburgerMenuPage.HamburgerMenuPage<br/>
+<a href="#Output-865609730" onClick='toggleBox("Output-865609730", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-865609730" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-865609730">
+Logout successfully navigated the user to Login Page<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>SwagLabsHamburgerMenuPage.HamburgerMenuPage@15de0b3c</td></tr>
+<tr>
+<td title='SwagLabsCheckOutPage.CheckoutPage.verifyValidCheckoutInformationAccepted()'><b>verifyValidCheckoutInformationAccepted</b><br>Test class: SwagLabsCheckOutPage.CheckoutPage<br/>
+<a href="#Output-752213451" onClick='toggleBox("Output-752213451", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-752213451" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-752213451">
+Valid checkout information was accepted and Checkout Overview was displayed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>SwagLabsCheckOutPage.CheckoutPage@1a677343</td></tr>
+<tr>
+<td title='SwagLabsCheckOutPage.CheckoutPage.verifyCartToCheckoutIntegration()'><b>verifyCartToCheckoutIntegration</b><br>Test class: SwagLabsCheckOutPage.CheckoutPage<br/>
+<a href="#Output-45441642" onClick='toggleBox("Output-45441642", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-45441642" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-45441642">
+Cart Page successfully navigated to Checkout Information Page<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>SwagLabsCheckOutPage.CheckoutPage@1a677343</td></tr>
+<tr>
+<td title='SwagLabsCheckOutPage.CheckoutPage.verifyCheckoutCompletionAndBackHome()'><b>verifyCheckoutCompletionAndBackHome</b><br>Test class: SwagLabsCheckOutPage.CheckoutPage<br/>
+<a href="#Output-617598191" onClick='toggleBox("Output-617598191", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-617598191" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-617598191">
+Checkout completed successfully and Back Home navigated to Product Page<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>SwagLabsCheckOutPage.CheckoutPage@1a677343</td></tr>
+<tr>
+<td title='SwagLabsProductPage.ProductPage.verifyProductCanBeAddedAgainAfterRemoval()'><b>verifyProductCanBeAddedAgainAfterRemoval</b><br>Test class: SwagLabsProductPage.ProductPage<br/>
+<a href="#Output-1748740831" onClick='toggleBox("Output-1748740831", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1748740831" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1748740831">
+Sauce Labs Backpack was removed and successfully added again<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>SwagLabsProductPage.ProductPage@74e52ef6</td></tr>
+<tr>
+<td title='SwagLabsLoginPage.LoginPage.verifyLoginSmokeTest()'><b>verifyLoginSmokeTest</b><br>Test class: SwagLabsLoginPage.LoginPage<br/>
+<a href="#Output-1095709674" onClick='toggleBox("Output-1095709674", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1095709674" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1095709674">
+Login smoke test passed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>SwagLabsLoginPage.LoginPage@3b0090a4</td></tr>
+<tr>
+<td title='SwagLabsCheckOutPage.CheckoutPage.verifyBlankLastNameIsRejected()'><b>verifyBlankLastNameIsRejected</b><br>Test class: SwagLabsCheckOutPage.CheckoutPage<br/>
+<a href="#Output-50547493" onClick='toggleBox("Output-50547493", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-50547493" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-50547493">
+Blank Last Name was rejected and validation was displayed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>SwagLabsCheckOutPage.CheckoutPage@1a677343</td></tr>
+<tr>
+<td title='SwagLabsCheckOutPage.CheckoutPage.verifyCompleteSystemPurchaseFlow()'><b>verifyCompleteSystemPurchaseFlow</b><br>Test class: SwagLabsCheckOutPage.CheckoutPage<br/>
+<a href="#Output-414131078" onClick='toggleBox("Output-414131078", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-414131078" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-414131078">
+Complete system purchase flow executed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>SwagLabsCheckOutPage.CheckoutPage@1a677343</td></tr>
+<tr>
+<td title='SwagLabsCartPage.CartPage.verifyCartPageControls()'><b>verifyCartPageControls</b><br>Test class: SwagLabsCartPage.CartPage<br/>
+<a href="#Output-1937351318" onClick='toggleBox("Output-1937351318", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1937351318" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1937351318">
+Cart Page controls are working successfully<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>SwagLabsCartPage.CartPage@6ed3ccb2</td></tr>
+<tr>
+<td title='SwagLabsHamburgerMenuPage.HamburgerMenuPage.verifyResetAppStateWithNoCartItem()'><b>verifyResetAppStateWithNoCartItem</b><br>Test class: SwagLabsHamburgerMenuPage.HamburgerMenuPage<br/>
+<a href="#Output-372043228" onClick='toggleBox("Output-372043228", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-372043228" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-372043228">
+Reset App State handled the empty cart successfully<br/>
+</div>
+</td>
+<td></td>
+<td>33</td>
+<td>SwagLabsHamburgerMenuPage.HamburgerMenuPage@15de0b3c</td></tr>
+<tr>
+<td title='SwagLabsHamburgerMenuPage.HamburgerMenuPage.verifyMenuNotAccessibleAfterLogout()'><b>verifyMenuNotAccessibleAfterLogout</b><br>Test class: SwagLabsHamburgerMenuPage.HamburgerMenuPage<br/>
+<a href="#Output-1242061819" onClick='toggleBox("Output-1242061819", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1242061819" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1242061819">
+Logged-out state verified successfully; Hamburger menu is no longer accessible<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>SwagLabsHamburgerMenuPage.HamburgerMenuPage@15de0b3c</td></tr>
+<tr>
+<td title='SwagLabsProductPage.ProductPage.verifyProductPageTitleAndProductsDisplayed()'><b>verifyProductPageTitleAndProductsDisplayed</b><br>Test class: SwagLabsProductPage.ProductPage<br/>
+<a href="#Output-148279330" onClick='toggleBox("Output-148279330", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-148279330" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-148279330">
+Product title, product cards, names and prices are displayed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>SwagLabsProductPage.ProductPage@74e52ef6</td></tr>
+<tr>
+<td title='SwagLabsLoginPage.LoginPage.verifyInvalidUsername()'><b>verifyInvalidUsername</b><br>Test class: SwagLabsLoginPage.LoginPage<br/>
+<a href="#Output-1453716563" onClick='toggleBox("Output-1453716563", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1453716563" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1453716563">
+Invalid username validation verified<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>SwagLabsLoginPage.LoginPage@3b0090a4</td></tr>
+<tr>
+<td title='SwagLabsLoginPage.LoginPage.verifyLoginControlsDisplayed()'><b>verifyLoginControlsDisplayed</b><br>Test class: SwagLabsLoginPage.LoginPage<br/>
+<a href="#Output-318892598" onClick='toggleBox("Output-318892598", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-318892598" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-318892598">
+Username, Password and Login controls are displayed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>SwagLabsLoginPage.LoginPage@3b0090a4</td></tr>
+<tr>
+<td title='SwagLabsCartPage.CartPage.verifyCartToCheckoutIntegration()'><b>verifyCartToCheckoutIntegration</b><br>Test class: SwagLabsCartPage.CartPage<br/>
+<a href="#Output-574872891" onClick='toggleBox("Output-574872891", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-574872891" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-574872891">
+Cart Page navigated to Checkout Page successfully<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>SwagLabsCartPage.CartPage@6ed3ccb2</td></tr>
+<tr>
+<td title='SwagLabsCheckOutPage.CheckoutPage.verifyCheckoutInformationFieldsAndControls()'><b>verifyCheckoutInformationFieldsAndControls</b><br>Test class: SwagLabsCheckOutPage.CheckoutPage<br/>
+<a href="#Output-1897823911" onClick='toggleBox("Output-1897823911", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1897823911" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1897823911">
+Checkout Information fields and controls are displayed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>SwagLabsCheckOutPage.CheckoutPage@1a677343</td></tr>
+<tr>
+<td title='SwagLabsCheckOutPage.CheckoutPage.verifyCheckoutOverviewProductVisibilityAndControls()'><b>verifyCheckoutOverviewProductVisibilityAndControls</b><br>Test class: SwagLabsCheckOutPage.CheckoutPage<br/>
+<a href="#Output-101931562" onClick='toggleBox("Output-101931562", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-101931562" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-101931562">
+Checkout Overview displays the selected product and required controls successfully<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>SwagLabsCheckOutPage.CheckoutPage@1a677343</td></tr>
+<tr>
+<td title='SwagLabsCartPage.CartPage.verifyCartPageSmokeTest()'><b>verifyCartPageSmokeTest</b><br>Test class: SwagLabsCartPage.CartPage<br/>
+<a href="#Output-663918441" onClick='toggleBox("Output-663918441", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-663918441" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-663918441">
+Cart Page smoke test passed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>SwagLabsCartPage.CartPage@6ed3ccb2</td></tr>
+<tr>
+<td title='SwagLabsLoginPage.LoginPage.verifyLoginNavigatesToProductPage()'><b>verifyLoginNavigatesToProductPage</b><br>Test class: SwagLabsLoginPage.LoginPage<br/>
+<a href="#Output-902359988" onClick='toggleBox("Output-902359988", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-902359988" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-902359988">
+Login successfully navigated to Product Page<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>SwagLabsLoginPage.LoginPage@3b0090a4</td></tr>
+<tr>
+<td title='SwagLabsHamburgerMenuPage.HamburgerMenuPage.verifyHamburgerMenuSmokeTest()'><b>verifyHamburgerMenuSmokeTest</b><br>Test class: SwagLabsHamburgerMenuPage.HamburgerMenuPage<br/>
+<a href="#Output-647772896" onClick='toggleBox("Output-647772896", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-647772896" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-647772896">
+Hamburger Menu smoke test passed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>SwagLabsHamburgerMenuPage.HamburgerMenuPage@15de0b3c</td></tr>
+<tr>
+<td title='SwagLabsCheckOutPage.CheckoutPage.verifyInvalidOrBlankZipIsRejected()'><b>verifyInvalidOrBlankZipIsRejected</b><br>Test class: SwagLabsCheckOutPage.CheckoutPage<br/>
+<a href="#Output-825140370" onClick='toggleBox("Output-825140370", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-825140370" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-825140370">
+Invalid or blank Zip was rejected and validation was displayed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>SwagLabsCheckOutPage.CheckoutPage@1a677343</td></tr>
+<tr>
+<td title='SwagLabsProductPage.ProductPage.verifyAddToCartAndCartLogoBehavior()'><b>verifyAddToCartAndCartLogoBehavior</b><br>Test class: SwagLabsProductPage.ProductPage<br/>
+<a href="#Output-468200981" onClick='toggleBox("Output-468200981", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-468200981" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-468200981">
+Sauce Labs Backpack was added to Cart successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>SwagLabsProductPage.ProductPage@74e52ef6</td></tr>
+<tr>
+<td title='SwagLabsLoginPage.LoginPage.verifyInvalidPassword()'><b>verifyInvalidPassword</b><br>Test class: SwagLabsLoginPage.LoginPage<br/>
+<a href="#Output-72452844" onClick='toggleBox("Output-72452844", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-72452844" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-72452844">
+Invalid password validation verified<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>SwagLabsLoginPage.LoginPage@3b0090a4</td></tr>
+<tr>
+<td title='SwagLabsProductPage.ProductPage.verifyProductPageSmokeTest()'><b>verifyProductPageSmokeTest</b><br>Test class: SwagLabsProductPage.ProductPage<br/>
+<a href="#Output-30436781" onClick='toggleBox("Output-30436781", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-30436781" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-30436781">
+Product Page smoke test passed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>SwagLabsProductPage.ProductPage@74e52ef6</td></tr>
+<tr>
+<td title='SwagLabsHamburgerMenuPage.HamburgerMenuPage.verifyResetAppStateRemovesAddedProduct()'><b>verifyResetAppStateRemovesAddedProduct</b><br>Test class: SwagLabsHamburgerMenuPage.HamburgerMenuPage<br/>
+<a href="#Output-494887490" onClick='toggleBox("Output-494887490", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-494887490" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-494887490">
+Reset App State removed the added product and cleared the Cart successfully<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>SwagLabsHamburgerMenuPage.HamburgerMenuPage@15de0b3c</td></tr>
+<tr>
+<td title='SwagLabsCheckOutPage.CheckoutPage.verifyBlankFirstNameIsRejected()'><b>verifyBlankFirstNameIsRejected</b><br>Test class: SwagLabsCheckOutPage.CheckoutPage<br/>
+<a href="#Output-1646607258" onClick='toggleBox("Output-1646607258", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1646607258" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1646607258">
+Blank First Name was rejected and validation was displayed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>SwagLabsCheckOutPage.CheckoutPage@1a677343</td></tr>
+</table><p>
+</body>
+</html>

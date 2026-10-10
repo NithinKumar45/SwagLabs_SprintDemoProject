@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SwagLabs Group Execution Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Functional Integration Negative Smoke System Tests(failed)">
+    <groups>
+      <run>
+        <include name="functional"/>
+        <include name="integration"/>
+        <include name="negative"/>
+        <include name="smoke"/>
+        <include name="system"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="SwagLabsProductPage.ProductPage">
+        <methods>
+          <include name="loginToApplication"/>
+          <include name="beforeTest"/>
+          <include name="verifyProductPageTitleAndProductsDisplayed"/>
+          <include name="beforeSuite"/>
+          <include name="closeBrowser"/>
+          <include name="verifyCartNavigationWithEmptyCart"/>
+          <include name="verifyProductCanBeAddedAgainAfterRemoval"/>
+          <include name="verifyFilterDropDownSmokeTest"/>
+          <include name="verifyProductPageSmokeTest"/>
+          <include name="verifyProductToCartNavigation"/>
+          <include name="AfterSuite"/>
+          <include name="verifyAddToCartAndCartLogoBehavior"/>
+        </methods>
+      </class> <!-- SwagLabsProductPage.ProductPage -->
+      <class name="SwagLabsCartPage.CartPage">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="verifyRemovedProductNotInCart"/>
+          <include name="verifyEmptyCart"/>
+          <include name="verifyCartPageControls"/>
+          <include name="beforeSuite"/>
+          <include name="closeBrowser"/>
+          <include name="verifyAddedProductVisibleInCart"/>
+          <include name="verifyCartToCheckoutIntegration"/>
+          <include name="verifyCartPageSmokeTest"/>
+          <include name="AfterSuite"/>
+          <include name="loginToApplication"/>
+        </methods>
+      </class> <!-- SwagLabsCartPage.CartPage -->
+      <class name="SwagLabsCheckOutPage.CheckoutPage">
+        <methods>
+          <include name="verifyCheckoutCompleteToHomeIntegration"/>
+          <include name="verifyBlankFirstNameIsRejected"/>
+          <include name="verifyInvalidOrBlankZipIsRejected"/>
+          <include name="verifyCheckoutCompletionAndBackHome"/>
+          <include name="beforeSuite"/>
+          <include name="verifyCompleteSystemPurchaseFlow"/>
+          <include name="closeBrowser"/>
+          <include name="verifyValidCheckoutInformationAccepted"/>
+          <include name="verifyCartToCheckoutIntegration"/>
+          <include name="verifyCheckoutInformationFieldsAndControls"/>
+          <include name="AfterSuite"/>
+          <include name="verifyCheckoutOverviewToCheckoutCompleteIntegration"/>
+          <include name="verifyBlankLastNameIsRejected"/>
+          <include name="beforeTest"/>
+          <include name="verifyCheckoutOverviewProductVisibilityAndControls"/>
+          <include name="loginToApplication"/>
+        </methods>
+      </class> <!-- SwagLabsCheckOutPage.CheckoutPage -->
+      <class name="SwagLabsLoginPage.LoginPage">
+        <methods>
+          <include name="openLoginPage"/>
+          <include name="beforeTest"/>
+          <include name="verifyBlankPassword"/>
+          <include name="verifyBlankUsername"/>
+          <include name="verifyValidLogin"/>
+          <include name="beforeSuite"/>
+          <include name="verifyInvalidUsername"/>
+          <include name="closeBrowser"/>
+          <include name="verifyLoginSmokeTest"/>
+          <include name="verifyInvalidPassword"/>
+          <include name="verifyLoginControlsDisplayed"/>
+          <include name="verifyLoginNavigatesToProductPage"/>
+          <include name="AfterSuite"/>
+        </methods>
+      </class> <!-- SwagLabsLoginPage.LoginPage -->
+      <class name="SwagLabsHamburgerMenuPage.HamburgerMenuPage">
+        <methods>
+          <include name="verifyHamburgerMenuOptionsDisplayed"/>
+          <include name="beforeTest"/>
+          <include name="verifyCompleteHamburgerMenuWorkflow"/>
+          <include name="loginToApplication"/>
+          <include name="verifyResetAppStateRemovesAddedProduct"/>
+          <include name="verifyHamburgerMenuSmokeTest"/>
+          <include name="verifyLogoutNavigatesToLoginPage"/>
+          <include name="beforeSuite"/>
+          <include name="verifyResetAppStateSmokeTest"/>
+          <include name="closeBrowser"/>
+          <include name="verifyResetAppStateWithNoCartItem"/>
+          <include name="AfterSuite"/>
+          <include name="verifyMenuNotAccessibleAfterLogout"/>
+        </methods>
+      </class> <!-- SwagLabsHamburgerMenuPage.HamburgerMenuPage -->
+    </classes>
+  </test> <!-- Functional Integration Negative Smoke System Tests(failed) -->
+</suite> <!-- Failed suite [SwagLabs Group Execution Suite] -->

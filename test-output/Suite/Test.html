@@ -1,0 +1,236 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Oct 09 11:03:33 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>231 seconds (231569 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>negative </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='SwagLabsCartPage.CartPage.verifyRemovedProductNotInCart()'><b>verifyRemovedProductNotInCart</b><br>Test class: SwagLabsCartPage.CartPage<br/>
+<a href="#Output-1849610076" onClick='toggleBox("Output-1849610076", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1849610076" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1849610076">
+Product was removed from Cart successfully<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>SwagLabsCartPage.CartPage@302552ec</td></tr>
+<tr>
+<td title='SwagLabsProductPage.ProductPage.verifyCartNavigationWithEmptyCart()'><b>verifyCartNavigationWithEmptyCart</b><br>Test class: SwagLabsProductPage.ProductPage<br/>
+<a href="#Output-1821580597" onClick='toggleBox("Output-1821580597", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1821580597" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1821580597">
+Empty Cart navigation handled correctly<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>SwagLabsProductPage.ProductPage@26794848</td></tr>
+<tr>
+<td title='SwagLabsProductPage.ProductPage.verifyProductCanBeAddedAgainAfterRemoval()'><b>verifyProductCanBeAddedAgainAfterRemoval</b><br>Test class: SwagLabsProductPage.ProductPage<br/>
+<a href="#Output-1134237170" onClick='toggleBox("Output-1134237170", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1134237170" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1134237170">
+Sauce Labs Backpack was removed and successfully added again<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>SwagLabsProductPage.ProductPage@26794848</td></tr>
+<tr>
+<td title='SwagLabsCartPage.CartPage.verifyEmptyCart()'><b>verifyEmptyCart</b><br>Test class: SwagLabsCartPage.CartPage<br/>
+<a href="#Output-38625764" onClick='toggleBox("Output-38625764", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-38625764" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-38625764">
+Empty Cart is displayed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>SwagLabsCartPage.CartPage@302552ec</td></tr>
+<tr>
+<td title='SwagLabsCheckOutPage.CheckoutPage.verifyInvalidOrBlankZipIsRejected()'><b>verifyInvalidOrBlankZipIsRejected</b><br>Test class: SwagLabsCheckOutPage.CheckoutPage<br/>
+<a href="#Output-2023501911" onClick='toggleBox("Output-2023501911", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2023501911" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2023501911">
+Invalid or blank Zip was rejected and validation was displayed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>SwagLabsCheckOutPage.CheckoutPage@3d285d7e</td></tr>
+<tr>
+<td title='SwagLabsLoginPage.LoginPage.verifyInvalidUsername()'><b>verifyInvalidUsername</b><br>Test class: SwagLabsLoginPage.LoginPage<br/>
+<a href="#Output-1643838324" onClick='toggleBox("Output-1643838324", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1643838324" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1643838324">
+Invalid username validation verified<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>SwagLabsLoginPage.LoginPage@3bf7ca37</td></tr>
+<tr>
+<td title='SwagLabsHamburgerMenuPage.HamburgerMenuPage.verifyResetAppStateWithNoCartItem()'><b>verifyResetAppStateWithNoCartItem</b><br>Test class: SwagLabsHamburgerMenuPage.HamburgerMenuPage<br/>
+<a href="#Output-940369315" onClick='toggleBox("Output-940369315", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-940369315" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-940369315">
+Reset App State handled the empty cart successfully<br/>
+</div>
+</td>
+<td></td>
+<td>33</td>
+<td>SwagLabsHamburgerMenuPage.HamburgerMenuPage@40005471</td></tr>
+<tr>
+<td title='SwagLabsLoginPage.LoginPage.verifyBlankPassword()'><b>verifyBlankPassword</b><br>Test class: SwagLabsLoginPage.LoginPage<br/>
+<a href="#Output-547380018" onClick='toggleBox("Output-547380018", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-547380018" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-547380018">
+Blank password validation verified<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>SwagLabsLoginPage.LoginPage@3bf7ca37</td></tr>
+<tr>
+<td title='SwagLabsHamburgerMenuPage.HamburgerMenuPage.verifyMenuNotAccessibleAfterLogout()'><b>verifyMenuNotAccessibleAfterLogout</b><br>Test class: SwagLabsHamburgerMenuPage.HamburgerMenuPage<br/>
+<a href="#Output-736631002" onClick='toggleBox("Output-736631002", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-736631002" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-736631002">
+Logged-out state verified successfully; Hamburger menu is no longer accessible<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>SwagLabsHamburgerMenuPage.HamburgerMenuPage@40005471</td></tr>
+<tr>
+<td title='SwagLabsLoginPage.LoginPage.verifyInvalidPassword()'><b>verifyInvalidPassword</b><br>Test class: SwagLabsLoginPage.LoginPage<br/>
+<a href="#Output-971256592" onClick='toggleBox("Output-971256592", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-971256592" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-971256592">
+Invalid password validation verified<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>SwagLabsLoginPage.LoginPage@3bf7ca37</td></tr>
+<tr>
+<td title='SwagLabsCheckOutPage.CheckoutPage.verifyBlankLastNameIsRejected()'><b>verifyBlankLastNameIsRejected</b><br>Test class: SwagLabsCheckOutPage.CheckoutPage<br/>
+<a href="#Output-487369776" onClick='toggleBox("Output-487369776", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-487369776" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-487369776">
+Blank Last Name was rejected and validation was displayed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>SwagLabsCheckOutPage.CheckoutPage@3d285d7e</td></tr>
+<tr>
+<td title='SwagLabsLoginPage.LoginPage.verifyBlankUsername()'><b>verifyBlankUsername</b><br>Test class: SwagLabsLoginPage.LoginPage<br/>
+<a href="#Output-440926517" onClick='toggleBox("Output-440926517", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-440926517" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-440926517">
+Blank username validation verified<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>SwagLabsLoginPage.LoginPage@3bf7ca37</td></tr>
+<tr>
+<td title='SwagLabsCheckOutPage.CheckoutPage.verifyBlankFirstNameIsRejected()'><b>verifyBlankFirstNameIsRejected</b><br>Test class: SwagLabsCheckOutPage.CheckoutPage<br/>
+<a href="#Output-1692481404" onClick='toggleBox("Output-1692481404", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1692481404" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1692481404">
+Blank First Name was rejected and validation was displayed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>SwagLabsCheckOutPage.CheckoutPage@3d285d7e</td></tr>
+</table><p>
+</body>
+</html>

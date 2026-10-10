@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SwagLabs Negative Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Negative Tests(failed)">
+    <groups>
+      <run>
+        <include name="negative"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="SwagLabsProductPage.ProductPage">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="verifyProductPageWithoutLogin"/>
+          <include name="beforeSuite"/>
+          <include name="closeBrowser"/>
+          <include name="verifyInvalidFilterOption"/>
+          <include name="launchBrowser"/>
+          <include name="AfterSuite"/>
+        </methods>
+      </class> <!-- SwagLabsProductPage.ProductPage -->
+    </classes>
+  </test> <!-- Negative Tests(failed) -->
+</suite> <!-- Failed suite [SwagLabs Negative Suite] -->

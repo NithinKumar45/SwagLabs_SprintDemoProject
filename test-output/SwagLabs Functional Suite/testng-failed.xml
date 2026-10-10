@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SwagLabs Functional Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Functional Tests(failed)">
+    <groups>
+      <run>
+        <include name="functional"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="SwagLabsProductPage.ProductPage">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="verifyProductPageTitleAndProductsDisplayed"/>
+          <include name="beforeSuite"/>
+          <include name="closeBrowser"/>
+          <include name="AfterSuite"/>
+          <include name="launchBrowser"/>
+          <include name="verifyAddToCartAndCartLogoBehavior"/>
+        </methods>
+      </class> <!-- SwagLabsProductPage.ProductPage -->
+      <class name="SwagLabsCartPage.CartPage">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="verifyCartPageControls"/>
+          <include name="beforeSuite"/>
+          <include name="closeBrowser"/>
+          <include name="verifyAddedProductVisibleInCart"/>
+          <include name="AfterSuite"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- SwagLabsCartPage.CartPage -->
+      <class name="SwagLabsCheckOutPage.CheckoutPage">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="verifyCheckoutCompletionAndBackHome"/>
+          <include name="beforeSuite"/>
+          <include name="verifyValidCheckoutInformationAccepted"/>
+          <include name="closeBrowser"/>
+          <include name="verifyCheckoutInformationFieldsAndControls"/>
+          <include name="AfterSuite"/>
+          <include name="verifyCheckoutOverviewProductVisibilityAndControls"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- SwagLabsCheckOutPage.CheckoutPage -->
+      <class name="SwagLabsHamburgerMenuPage.HamburgerMenuPage">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="verifyHamburgerMenuOptionsDisplayed"/>
+          <include name="verifyResetAppStateRemovesAddedProduct"/>
+          <include name="beforeSuite"/>
+          <include name="closeBrowser"/>
+          <include name="AfterSuite"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- SwagLabsHamburgerMenuPage.HamburgerMenuPage -->
+    </classes>
+  </test> <!-- Functional Tests(failed) -->
+</suite> <!-- Failed suite [SwagLabs Functional Suite] -->

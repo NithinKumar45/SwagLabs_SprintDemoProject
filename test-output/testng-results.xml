@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="40" passed="40" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Swag Labs Test Suite Started]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Username, Password and Login controls are displayed]]>
+    </line>
+    <line>
+      <![CDATA[Login successfully navigated to Product Page]]>
+    </line>
+    <line>
+      <![CDATA[Login smoke test passed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Valid login successful]]>
+    </line>
+    <line>
+      <![CDATA[Invalid username validation verified]]>
+    </line>
+    <line>
+      <![CDATA[Blank username validation verified]]>
+    </line>
+    <line>
+      <![CDATA[Invalid password validation verified]]>
+    </line>
+    <line>
+      <![CDATA[Blank password validation verified]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Sauce Labs Backpack was added to Cart successfully]]>
+    </line>
+    <line>
+      <![CDATA[Empty Cart navigation handled correctly]]>
+    </line>
+    <line>
+      <![CDATA[Random filter option selected and product added succesfully: Price (high to low)]]>
+    </line>
+    <line>
+      <![CDATA[Sauce Labs Backpack was removed and successfully added again]]>
+    </line>
+    <line>
+      <![CDATA[Product Page smoke test passed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Product title, product cards, names and prices are displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Product Page successfully navigated to Cart Page with selected product]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Sauce Labs Backpack is displayed in Cart Page successfully]]>
+    </line>
+    <line>
+      <![CDATA[Cart Page controls are working successfully]]>
+    </line>
+    <line>
+      <![CDATA[Cart Page smoke test passed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Cart Page navigated to Checkout Page successfully]]>
+    </line>
+    <line>
+      <![CDATA[Empty Cart is displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Product was removed from Cart successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Blank First Name was rejected and validation was displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Blank Last Name was rejected and validation was displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Cart Page successfully navigated to Checkout Information Page]]>
+    </line>
+    <line>
+      <![CDATA[Checkout Complete successfully navigated back to Product Page]]>
+    </line>
+    <line>
+      <![CDATA[Checkout completed successfully and Back Home navigated to Product Page]]>
+    </line>
+    <line>
+      <![CDATA[Checkout Information fields and controls are displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Checkout Overview displays the selected product and required controls successfully]]>
+    </line>
+    <line>
+      <![CDATA[Checkout Overview successfully completed the order and displayed confirmation]]>
+    </line>
+    <line>
+      <![CDATA[Complete system purchase flow executed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Invalid or blank Zip was rejected and validation was displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Valid checkout information was accepted and Checkout Overview was displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Complete Hamburger Menu system workflow from Login to Logout executed successfully]]>
+    </line>
+    <line>
+      <![CDATA[All Items, Logout and Reset App State options are displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Hamburger Menu smoke test passed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Logout successfully navigated the user to Login Page]]>
+    </line>
+    <line>
+      <![CDATA[Logged-out state verified successfully; Hamburger menu is no longer accessible]]>
+    </line>
+    <line>
+      <![CDATA[Reset App State removed the added product and cleared the Cart successfully]]>
+    </line>
+    <line>
+      <![CDATA[Reset App State smoke test passed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Reset App State handled the empty cart successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed Successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-10-10T11:47:58 IST" name="SwagLabs Batch Execution Suite" finished-at="2026-10-10T11:57:06 IST" duration-ms="548245">
+    <groups>
+      <group name="negative">
+        <method signature="CartPage.verifyEmptyCart()[pri:0, instance:SwagLabsCartPage.CartPage@179ece50]" name="verifyEmptyCart" class="SwagLabsCartPage.CartPage"/>
+        <method signature="CartPage.verifyRemovedProductNotInCart()[pri:0, instance:SwagLabsCartPage.CartPage@179ece50]" name="verifyRemovedProductNotInCart" class="SwagLabsCartPage.CartPage"/>
+        <method signature="CheckoutPage.verifyBlankFirstNameIsRejected()[pri:0, instance:SwagLabsCheckOutPage.CheckoutPage@3b0090a4]" name="verifyBlankFirstNameIsRejected" class="SwagLabsCheckOutPage.CheckoutPage"/>
+        <method signature="CheckoutPage.verifyBlankLastNameIsRejected()[pri:0, instance:SwagLabsCheckOutPage.CheckoutPage@3b0090a4]" name="verifyBlankLastNameIsRejected" class="SwagLabsCheckOutPage.CheckoutPage"/>
+        <method signature="CheckoutPage.verifyInvalidOrBlankZipIsRejected()[pri:0, instance:SwagLabsCheckOutPage.CheckoutPage@3b0090a4]" name="verifyInvalidOrBlankZipIsRejected" class="SwagLabsCheckOutPage.CheckoutPage"/>
+        <method signature="HamburgerMenuPage.verifyMenuNotAccessibleAfterLogout()[pri:0, instance:SwagLabsHamburgerMenuPage.HamburgerMenuPage@3cd3e762]" name="verifyMenuNotAccessibleAfterLogout" class="SwagLabsHamburgerMenuPage.HamburgerMenuPage"/>
+        <method signature="HamburgerMenuPage.verifyResetAppStateWithNoCartItem()[pri:0, instance:SwagLabsHamburgerMenuPage.HamburgerMenuPage@3cd3e762]" name="verifyResetAppStateWithNoCartItem" class="SwagLabsHamburgerMenuPage.HamburgerMenuPage"/>
+        <method signature="ProductPage.verifyCartNavigationWithEmptyCart()[pri:0, instance:SwagLabsProductPage.ProductPage@9d5509a]" name="verifyCartNavigationWithEmptyCart" class="SwagLabsProductPage.ProductPage"/>
+        <method signature="ProductPage.verifyProductCanBeAddedAgainAfterRemoval()[pri:0, instance:SwagLabsProductPage.ProductPage@9d5509a]" name="verifyProductCanBeAddedAgainAfterRemoval" class="SwagLabsProductPage.ProductPage"/>
+        <method signature="LoginPage.verifyInvalidUsername()[pri:1, instance:SwagLabsLoginPage.LoginPage@233795b6]" name="verifyInvalidUsername" class="SwagLabsLoginPage.LoginPage"/>
+        <method signature="LoginPage.verifyBlankUsername()[pri:2, instance:SwagLabsLoginPage.LoginPage@233795b6]" name="verifyBlankUsername" class="SwagLabsLoginPage.LoginPage"/>
+        <method signature="LoginPage.verifyInvalidPassword()[pri:3, instance:SwagLabsLoginPage.LoginPage@233795b6]" name="verifyInvalidPassword" class="SwagLabsLoginPage.LoginPage"/>
+        <method signature="LoginPage.verifyBlankPassword()[pri:4, instance:SwagLabsLoginPage.LoginPage@233795b6]" name="verifyBlankPassword" class="SwagLabsLoginPage.LoginPage"/>
+      </group> <!-- negative -->
+      <group name="functional">
+        <method signature="CartPage.verifyAddedProductVisibleInCart()[pri:0, instance:SwagLabsCartPage.CartPage@179ece50]" name="verifyAddedProductVisibleInCart" class="SwagLabsCartPage.CartPage"/>
+        <method signature="CartPage.verifyCartPageControls()[pri:0, instance:SwagLabsCartPage.CartPage@179ece50]" name="verifyCartPageControls" class="SwagLabsCartPage.CartPage"/>
+        <method signature="CheckoutPage.verifyCheckoutCompletionAndBackHome()[pri:0, instance:SwagLabsCheckOutPage.CheckoutPage@3b0090a4]" name="verifyCheckoutCompletionAndBackHome" class="SwagLabsCheckOutPage.CheckoutPage"/>
+        <method signature="CheckoutPage.verifyCheckoutInformationFieldsAndControls()[pri:0, instance:SwagLabsCheckOutPage.CheckoutPage@3b0090a4]" name="verifyCheckoutInformationFieldsAndControls" class="SwagLabsCheckOutPage.CheckoutPage"/>
+        <method signature="CheckoutPage.verifyCheckoutOverviewProductVisibilityAndControls()[pri:0, instance:SwagLabsCheckOutPage.CheckoutPage@3b0090a4]" name="verifyCheckoutOverviewProductVisibilityAndControls" class="SwagLabsCheckOutPage.CheckoutPage"/>
+        <method signature="CheckoutPage.verifyValidCheckoutInformationAccepted()[pri:0, instance:SwagLabsCheckOutPage.CheckoutPage@3b0090a4]" name="verifyValidCheckoutInformationAccepted" class="SwagLabsCheckOutPage.CheckoutPage"/>
+        <method signature="HamburgerMenuPage.verifyHamburgerMenuOptionsDisplayed()[pri:0, instance:SwagLabsHamburgerMenuPage.HamburgerMenuPage@3cd3e762]" name="verifyHamburgerMenuOptionsDisplayed" class="SwagLabsHamburgerMenuPage.HamburgerMenuPage"/>
+        <method signature="HamburgerMenuPage.verifyResetAppStateRemovesAddedProduct()[pri:0, instance:SwagLabsHamburgerMenuPage.HamburgerMenuPage@3cd3e762]" name="verifyResetAppStateRemovesAddedProduct" class="SwagLabsHamburgerMenuPage.HamburgerMenuPage"/>
+        <method signature="LoginPage.verifyLoginControlsDisplayed()[pri:0, instance:SwagLabsLoginPage.LoginPage@233795b6]" name="verifyLoginControlsDisplayed" class="SwagLabsLoginPage.LoginPage"/>
+        <method signature="LoginPage.verifyValidLogin()[pri:0, instance:SwagLabsLoginPage.LoginPage@233795b6]" name="verifyValidLogin" class="SwagLabsLoginPage.LoginPage"/>
+        <method signature="ProductPage.verifyAddToCartAndCartLogoBehavior()[pri:0, instance:SwagLabsProductPage.ProductPage@9d5509a]" name="verifyAddToCartAndCartLogoBehavior" class="SwagLabsProductPage.ProductPage"/>
+        <method signature="ProductPage.verifyProductPageTitleAndProductsDisplayed()[pri:0, instance:SwagLabsProductPage.ProductPage@9d5509a]" name="verifyProductPageTitleAndProductsDisplayed" class="SwagLabsProductPage.ProductPage"/>
+      </group> <!-- functional -->
+      <group name="system">
+        <method signature="CheckoutPage.verifyCompleteSystemPurchaseFlow()[pri:0, instance:SwagLabsCheckOutPage.CheckoutPage@3b0090a4]" name="verifyCompleteSystemPurchaseFlow" class="SwagLabsCheckOutPage.CheckoutPage"/>
+        <method signature="HamburgerMenuPage.verifyCompleteHamburgerMenuWorkflow()[pri:0, instance:SwagLabsHamburgerMenuPage.HamburgerMenuPage@3cd3e762]" name="verifyCompleteHamburgerMenuWorkflow" class="SwagLabsHamburgerMenuPage.HamburgerMenuPage"/>
+      </group> <!-- system -->
+      <group name="integration">
+        <method signature="CartPage.verifyCartToCheckoutIntegration()[pri:0, instance:SwagLabsCartPage.CartPage@179ece50]" name="verifyCartToCheckoutIntegration" class="SwagLabsCartPage.CartPage"/>
+        <method signature="CheckoutPage.verifyCartToCheckoutIntegration()[pri:0, instance:SwagLabsCheckOutPage.CheckoutPage@3b0090a4]" name="verifyCartToCheckoutIntegration" class="SwagLabsCheckOutPage.CheckoutPage"/>
+        <method signature="CheckoutPage.verifyCheckoutCompleteToHomeIntegration()[pri:0, instance:SwagLabsCheckOutPage.CheckoutPage@3b0090a4]" name="verifyCheckoutCompleteToHomeIntegration" class="SwagLabsCheckOutPage.CheckoutPage"/>
+        <method signature="CheckoutPage.verifyCheckoutOverviewToCheckoutCompleteIntegration()[pri:0, instance:SwagLabsCheckOutPage.CheckoutPage@3b0090a4]" name="verifyCheckoutOverviewToCheckoutCompleteIntegration" class="SwagLabsCheckOutPage.CheckoutPage"/>
+        <method signature="HamburgerMenuPage.verifyLogoutNavigatesToLoginPage()[pri:0, instance:SwagLabsHamburgerMenuPage.HamburgerMenuPage@3cd3e762]" name="verifyLogoutNavigatesToLoginPage" class="SwagLabsHamburgerMenuPage.HamburgerMenuPage"/>
+        <method signature="LoginPage.verifyLoginNavigatesToProductPage()[pri:0, instance:SwagLabsLoginPage.LoginPage@233795b6]" name="verifyLoginNavigatesToProductPage" class="SwagLabsLoginPage.LoginPage"/>
+        <method signature="ProductPage.verifyProductToCartNavigation()[pri:0, instance:SwagLabsProductPage.ProductPage@9d5509a]" name="verifyProductToCartNavigation" class="SwagLabsProductPage.ProductPage"/>
+      </group> <!-- integration -->
+      <group name="smoke">
+        <method signature="CartPage.verifyCartPageSmokeTest()[pri:0, instance:SwagLabsCartPage.CartPage@179ece50]" name="verifyCartPageSmokeTest" class="SwagLabsCartPage.CartPage"/>
+        <method signature="HamburgerMenuPage.verifyHamburgerMenuSmokeTest()[pri:0, instance:SwagLabsHamburgerMenuPage.HamburgerMenuPage@3cd3e762]" name="verifyHamburgerMenuSmokeTest" class="SwagLabsHamburgerMenuPage.HamburgerMenuPage"/>
+        <method signature="HamburgerMenuPage.verifyResetAppStateSmokeTest()[pri:0, instance:SwagLabsHamburgerMenuPage.HamburgerMenuPage@3cd3e762]" name="verifyResetAppStateSmokeTest" class="SwagLabsHamburgerMenuPage.HamburgerMenuPage"/>
+        <method signature="LoginPage.verifyLoginSmokeTest()[pri:0, instance:SwagLabsLoginPage.LoginPage@233795b6]" name="verifyLoginSmokeTest" class="SwagLabsLoginPage.LoginPage"/>
+        <method signature="ProductPage.verifyFilterDropDownSmokeTest()[pri:0, instance:SwagLabsProductPage.ProductPage@9d5509a]" name="verifyFilterDropDownSmokeTest" class="SwagLabsProductPage.ProductPage"/>
+        <method signature="ProductPage.verifyProductPageSmokeTest()[pri:0, instance:SwagLabsProductPage.ProductPage@9d5509a]" name="verifyProductPageSmokeTest" class="SwagLabsProductPage.ProductPage"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-10-10T11:47:58 IST" name="SwagLabs Batch Tests" finished-at="2026-10-10T11:57:06 IST" duration-ms="548245">
+      <class name="SwagLabsCheckOutPage.CheckoutPage">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:SwagLabsCheckOutPage.CheckoutPage@3b0090a4]" started-at="2026-10-10T11:51:52 IST" name="launchBrowser" finished-at="2026-10-10T11:51:56 IST" duration-ms="4006" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Launched Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:SwagLabsCheckOutPage.CheckoutPage@3b0090a4]" started-at="2026-10-10T11:51:56 IST" name="loginToApplication" finished-at="2026-10-10T11:52:04 IST" duration-ms="7456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyBlankFirstNameIsRejected()[pri:0, instance:SwagLabsCheckOutPage.CheckoutPage@3b0090a4]" started-at="2026-10-10T11:52:04 IST" name="verifyBlankFirstNameIsRejected" finished-at="2026-10-10T11:52:09 IST" duration-ms="5147" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Blank First Name was rejected and validation was displayed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyBlankFirstNameIsRejected -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:SwagLabsCheckOutPage.CheckoutPage@3b0090a4]" started-at="2026-10-10T11:52:09 IST" name="loginToApplication" finished-at="2026-10-10T11:52:16 IST" duration-ms="7424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyBlankLastNameIsRejected()[pri:0, instance:SwagLabsCheckOutPage.CheckoutPage@3b0090a4]" started-at="2026-10-10T11:52:16 IST" name="verifyBlankLastNameIsRejected" finished-at="2026-10-10T11:52:22 IST" duration-ms="5534" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Blank Last Name was rejected and validation was displayed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyBlankLastNameIsRejected -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:SwagLabsCheckOutPage.CheckoutPage@3b0090a4]" started-at="2026-10-10T11:52:22 IST" name="loginToApplication" finished-at="2026-10-10T11:52:29 IST" duration-ms="7428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyCartToCheckoutIntegration()[pri:0, instance:SwagLabsCheckOutPage.CheckoutPage@3b0090a4]" started-at="2026-10-10T11:52:29 IST" name="verifyCartToCheckoutIntegration" finished-at="2026-10-10T11:52:33 IST" duration-ms="3376" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Cart Page successfully navigated to Checkout Information Page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCartToCheckoutIntegration -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:SwagLabsCheckOutPage.CheckoutPage@3b0090a4]" started-at="2026-10-10T11:52:33 IST" name="loginToApplication" finished-at="2026-10-10T11:52:40 IST" duration-ms="7404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyCheckoutCompleteToHomeIntegration()[pri:0, instance:SwagLabsCheckOutPage.CheckoutPage@3b0090a4]" started-at="2026-10-10T11:52:40 IST" name="verifyCheckoutCompleteToHomeIntegration" finished-at="2026-10-10T11:52:48 IST" duration-ms="7956" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Checkout Complete successfully navigated back to Product Page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCheckoutCompleteToHomeIntegration -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:SwagLabsCheckOutPage.CheckoutPage@3b0090a4]" started-at="2026-10-10T11:52:48 IST" name="loginToApplication" finished-at="2026-10-10T11:52:56 IST" duration-ms="7547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyCheckoutCompletionAndBackHome()[pri:0, instance:SwagLabsCheckOutPage.CheckoutPage@3b0090a4]" started-at="2026-10-10T11:52:56 IST" name="verifyCheckoutCompletionAndBackHome" finished-at="2026-10-10T11:53:03 IST" duration-ms="7372" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Checkout completed successfully and Back Home navigated to Product Page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCheckoutCompletionAndBackHome -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:SwagLabsCheckOutPage.CheckoutPage@3b0090a4]" started-at="2026-10-10T11:53:03 IST" name="loginToApplication" finished-at="2026-10-10T11:53:10 IST" duration-ms="7433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyCheckoutInformationFieldsAndControls()[pri:0, instance:SwagLabsCheckOutPage.CheckoutPage@3b0090a4]" started-at="2026-10-10T11:53:10 IST" name="verifyCheckoutInformationFieldsAndControls" finished-at="2026-10-10T11:53:14 IST" duration-ms="3459" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Checkout Information fields and controls are displayed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCheckoutInformationFieldsAndControls -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:SwagLabsCheckOutPage.CheckoutPage@3b0090a4]" started-at="2026-10-10T11:53:14 IST" name="loginToApplication" finished-at="2026-10-10T11:53:21 IST" duration-ms="7430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyCheckoutOverviewProductVisibilityAndControls()[pri:0, instance:SwagLabsCheckOutPage.CheckoutPage@3b0090a4]" started-at="2026-10-10T11:53:21 IST" name="verifyCheckoutOverviewProductVisibilityAndControls" finished-at="2026-10-10T11:53:28 IST" duration-ms="6349" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Checkout Overview displays the selected product and required controls successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCheckoutOverviewProductVisibilityAndControls -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:SwagLabsCheckOutPage.CheckoutPage@3b0090a4]" started-at="2026-10-10T11:53:28 IST" name="loginToApplication" finished-at="2026-10-10T11:53:35 IST" duration-ms="7763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyCheckoutOverviewToCheckoutCompleteIntegration()[pri:0, instance:SwagLabsCheckOutPage.CheckoutPage@3b0090a4]" started-at="2026-10-10T11:53:35 IST" name="verifyCheckoutOverviewToCheckoutCompleteIntegration" finished-at="2026-10-10T11:53:41 IST" duration-ms="5849" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Checkout Overview successfully completed the order and displayed confirmation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCheckoutOverviewToCheckoutCompleteIntegration -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:SwagLabsCheckOutPage.CheckoutPage@3b0090a4]" started-at="2026-10-10T11:53:41 IST" name="loginToApplication" finished-at="2026-10-10T11:53:49 IST" duration-ms="7444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyCompleteSystemPurchaseFlow()[pri:0, instance:SwagLabsCheckOutPage.CheckoutPage@3b0090a4]" started-at="2026-10-10T11:53:49 IST" name="verifyCompleteSystemPurchaseFlow" finished-at="2026-10-10T11:53:56 IST" duration-ms="6863" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Complete system purchase flow executed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCompleteSystemPurchaseFlow -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:SwagLabsCheckOutPage.CheckoutPage@3b0090a4]" started-at="2026-10-10T11:53:56 IST" name="loginToApplication" finished-at="2026-10-10T11:54:03 IST" duration-ms="7498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyInvalidOrBlankZipIsRejected()[pri:0, instance:SwagLabsCheckOutPage.CheckoutPage@3b0090a4]" started-at="2026-10-10T11:54:03 IST" name="verifyInvalidOrBlankZipIsRejected" finished-at="2026-10-10T11:54:06 IST" duration-ms="2568" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Invalid or blank Zip was rejected and validation was displayed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidOrBlankZipIsRejected -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:SwagLabsCheckOutPage.CheckoutPage@3b0090a4]" started-at="2026-10-10T11:54:06 IST" name="loginToApplication" finished-at="2026-10-10T11:54:13 IST" duration-ms="7468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyValidCheckoutInformationAccepted()[pri:0, instance:SwagLabsCheckOutPage.CheckoutPage@3b0090a4]" started-at="2026-10-10T11:54:13 IST" name="verifyValidCheckoutInformationAccepted" finished-at="2026-10-10T11:54:18 IST" duration-ms="5160" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Valid checkout information was accepted and Checkout Overview was displayed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyValidCheckoutInformationAccepted -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SwagLabsCheckOutPage.CheckoutPage@3b0090a4]" started-at="2026-10-10T11:54:18 IST" name="closeBrowser" finished-at="2026-10-10T11:54:21 IST" duration-ms="2300" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- SwagLabsCheckOutPage.CheckoutPage -->
+      <class name="SwagLabsCartPage.CartPage">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:SwagLabsCartPage.CartPage@179ece50]" started-at="2026-10-10T11:50:31 IST" name="launchBrowser" finished-at="2026-10-10T11:50:32 IST" duration-ms="1417" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Launched Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:SwagLabsCartPage.CartPage@179ece50]" started-at="2026-10-10T11:50:32 IST" name="loginToApplication" finished-at="2026-10-10T11:50:39 IST" duration-ms="7442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyAddedProductVisibleInCart()[pri:0, instance:SwagLabsCartPage.CartPage@179ece50]" started-at="2026-10-10T11:50:39 IST" name="verifyAddedProductVisibleInCart" finished-at="2026-10-10T11:50:40 IST" duration-ms="341" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Sauce Labs Backpack is displayed in Cart Page successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAddedProductVisibleInCart -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:SwagLabsCartPage.CartPage@179ece50]" started-at="2026-10-10T11:50:40 IST" name="loginToApplication" finished-at="2026-10-10T11:50:47 IST" duration-ms="7490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyCartPageControls()[pri:0, instance:SwagLabsCartPage.CartPage@179ece50]" started-at="2026-10-10T11:50:47 IST" name="verifyCartPageControls" finished-at="2026-10-10T11:50:52 IST" duration-ms="4500" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Cart Page controls are working successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCartPageControls -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:SwagLabsCartPage.CartPage@179ece50]" started-at="2026-10-10T11:50:52 IST" name="loginToApplication" finished-at="2026-10-10T11:50:59 IST" duration-ms="7549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyCartPageSmokeTest()[pri:0, instance:SwagLabsCartPage.CartPage@179ece50]" started-at="2026-10-10T11:50:59 IST" name="verifyCartPageSmokeTest" finished-at="2026-10-10T11:51:02 IST" duration-ms="2298" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Cart Page smoke test passed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCartPageSmokeTest -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:SwagLabsCartPage.CartPage@179ece50]" started-at="2026-10-10T11:51:02 IST" name="loginToApplication" finished-at="2026-10-10T11:51:09 IST" duration-ms="7534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyCartToCheckoutIntegration()[pri:0, instance:SwagLabsCartPage.CartPage@179ece50]" started-at="2026-10-10T11:51:09 IST" name="verifyCartToCheckoutIntegration" finished-at="2026-10-10T11:51:11 IST" duration-ms="2281" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Cart Page navigated to Checkout Page successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCartToCheckoutIntegration -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:SwagLabsCartPage.CartPage@179ece50]" started-at="2026-10-10T11:51:11 IST" name="loginToApplication" finished-at="2026-10-10T11:51:19 IST" duration-ms="7428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyEmptyCart()[pri:0, instance:SwagLabsCartPage.CartPage@179ece50]" started-at="2026-10-10T11:51:19 IST" name="verifyEmptyCart" finished-at="2026-10-10T11:51:29 IST" duration-ms="10094" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Empty Cart is displayed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyEmptyCart -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:SwagLabsCartPage.CartPage@179ece50]" started-at="2026-10-10T11:51:29 IST" name="loginToApplication" finished-at="2026-10-10T11:51:36 IST" duration-ms="7485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyRemovedProductNotInCart()[pri:0, instance:SwagLabsCartPage.CartPage@179ece50]" started-at="2026-10-10T11:51:36 IST" name="verifyRemovedProductNotInCart" finished-at="2026-10-10T11:51:50 IST" duration-ms="13372" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Product was removed from Cart successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyRemovedProductNotInCart -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SwagLabsCartPage.CartPage@179ece50]" started-at="2026-10-10T11:51:50 IST" name="closeBrowser" finished-at="2026-10-10T11:51:52 IST" duration-ms="2416" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- SwagLabsCartPage.CartPage -->
+      <class name="SwagLabsHamburgerMenuPage.HamburgerMenuPage">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:SwagLabsHamburgerMenuPage.HamburgerMenuPage@3cd3e762]" started-at="2026-10-10T11:54:21 IST" name="launchBrowser" finished-at="2026-10-10T11:54:22 IST" duration-ms="1643" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Launched Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:SwagLabsHamburgerMenuPage.HamburgerMenuPage@3cd3e762]" started-at="2026-10-10T11:54:22 IST" name="loginToApplication" finished-at="2026-10-10T11:54:30 IST" duration-ms="7613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyCompleteHamburgerMenuWorkflow()[pri:0, instance:SwagLabsHamburgerMenuPage.HamburgerMenuPage@3cd3e762]" started-at="2026-10-10T11:54:30 IST" name="verifyCompleteHamburgerMenuWorkflow" finished-at="2026-10-10T11:55:00 IST" duration-ms="30052" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Complete Hamburger Menu system workflow from Login to Logout executed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCompleteHamburgerMenuWorkflow -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:SwagLabsHamburgerMenuPage.HamburgerMenuPage@3cd3e762]" started-at="2026-10-10T11:55:00 IST" name="loginToApplication" finished-at="2026-10-10T11:55:07 IST" duration-ms="7580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyHamburgerMenuOptionsDisplayed()[pri:0, instance:SwagLabsHamburgerMenuPage.HamburgerMenuPage@3cd3e762]" started-at="2026-10-10T11:55:07 IST" name="verifyHamburgerMenuOptionsDisplayed" finished-at="2026-10-10T11:55:09 IST" duration-ms="1174" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[All Items, Logout and Reset App State options are displayed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyHamburgerMenuOptionsDisplayed -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:SwagLabsHamburgerMenuPage.HamburgerMenuPage@3cd3e762]" started-at="2026-10-10T11:55:09 IST" name="loginToApplication" finished-at="2026-10-10T11:55:16 IST" duration-ms="7630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyHamburgerMenuSmokeTest()[pri:0, instance:SwagLabsHamburgerMenuPage.HamburgerMenuPage@3cd3e762]" started-at="2026-10-10T11:55:16 IST" name="verifyHamburgerMenuSmokeTest" finished-at="2026-10-10T11:55:18 IST" duration-ms="2237" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Hamburger Menu smoke test passed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyHamburgerMenuSmokeTest -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:SwagLabsHamburgerMenuPage.HamburgerMenuPage@3cd3e762]" started-at="2026-10-10T11:55:18 IST" name="loginToApplication" finished-at="2026-10-10T11:55:26 IST" duration-ms="7670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyLogoutNavigatesToLoginPage()[pri:0, instance:SwagLabsHamburgerMenuPage.HamburgerMenuPage@3cd3e762]" started-at="2026-10-10T11:55:26 IST" name="verifyLogoutNavigatesToLoginPage" finished-at="2026-10-10T11:55:28 IST" duration-ms="2286" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout successfully navigated the user to Login Page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutNavigatesToLoginPage -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:SwagLabsHamburgerMenuPage.HamburgerMenuPage@3cd3e762]" started-at="2026-10-10T11:55:28 IST" name="loginToApplication" finished-at="2026-10-10T11:55:36 IST" duration-ms="7689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyMenuNotAccessibleAfterLogout()[pri:0, instance:SwagLabsHamburgerMenuPage.HamburgerMenuPage@3cd3e762]" started-at="2026-10-10T11:55:36 IST" name="verifyMenuNotAccessibleAfterLogout" finished-at="2026-10-10T11:55:39 IST" duration-ms="3369" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged-out state verified successfully; Hamburger menu is no longer accessible]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyMenuNotAccessibleAfterLogout -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:SwagLabsHamburgerMenuPage.HamburgerMenuPage@3cd3e762]" started-at="2026-10-10T11:55:39 IST" name="loginToApplication" finished-at="2026-10-10T11:55:47 IST" duration-ms="7612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyResetAppStateRemovesAddedProduct()[pri:0, instance:SwagLabsHamburgerMenuPage.HamburgerMenuPage@3cd3e762]" started-at="2026-10-10T11:55:47 IST" name="verifyResetAppStateRemovesAddedProduct" finished-at="2026-10-10T11:56:02 IST" duration-ms="14586" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Reset App State removed the added product and cleared the Cart successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyResetAppStateRemovesAddedProduct -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:SwagLabsHamburgerMenuPage.HamburgerMenuPage@3cd3e762]" started-at="2026-10-10T11:56:02 IST" name="loginToApplication" finished-at="2026-10-10T11:56:09 IST" duration-ms="7703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyResetAppStateSmokeTest()[pri:0, instance:SwagLabsHamburgerMenuPage.HamburgerMenuPage@3cd3e762]" started-at="2026-10-10T11:56:09 IST" name="verifyResetAppStateSmokeTest" finished-at="2026-10-10T11:56:23 IST" duration-ms="13460" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Reset App State smoke test passed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyResetAppStateSmokeTest -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:SwagLabsHamburgerMenuPage.HamburgerMenuPage@3cd3e762]" started-at="2026-10-10T11:56:23 IST" name="loginToApplication" finished-at="2026-10-10T11:56:31 IST" duration-ms="7663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyResetAppStateWithNoCartItem()[pri:0, instance:SwagLabsHamburgerMenuPage.HamburgerMenuPage@3cd3e762]" started-at="2026-10-10T11:56:31 IST" name="verifyResetAppStateWithNoCartItem" finished-at="2026-10-10T11:57:04 IST" duration-ms="33411" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Reset App State handled the empty cart successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyResetAppStateWithNoCartItem -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SwagLabsHamburgerMenuPage.HamburgerMenuPage@3cd3e762]" started-at="2026-10-10T11:57:04 IST" name="closeBrowser" finished-at="2026-10-10T11:57:06 IST" duration-ms="2273" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- SwagLabsHamburgerMenuPage.HamburgerMenuPage -->
+      <class name="SwagLabsProductPage.ProductPage">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:SwagLabsProductPage.ProductPage@9d5509a]" started-at="2026-10-10T11:49:12 IST" name="launchBrowser" finished-at="2026-10-10T11:49:13 IST" duration-ms="1682" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Launched Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:SwagLabsProductPage.ProductPage@9d5509a]" started-at="2026-10-10T11:49:13 IST" name="loginToApplication" finished-at="2026-10-10T11:49:21 IST" duration-ms="7550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyAddToCartAndCartLogoBehavior()[pri:0, instance:SwagLabsProductPage.ProductPage@9d5509a]" started-at="2026-10-10T11:49:21 IST" name="verifyAddToCartAndCartLogoBehavior" finished-at="2026-10-10T11:49:21 IST" duration-ms="265" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Sauce Labs Backpack was added to Cart successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCartAndCartLogoBehavior -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:SwagLabsProductPage.ProductPage@9d5509a]" started-at="2026-10-10T11:49:21 IST" name="loginToApplication" finished-at="2026-10-10T11:49:29 IST" duration-ms="7477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyCartNavigationWithEmptyCart()[pri:0, instance:SwagLabsProductPage.ProductPage@9d5509a]" started-at="2026-10-10T11:49:29 IST" name="verifyCartNavigationWithEmptyCart" finished-at="2026-10-10T11:49:39 IST" duration-ms="10226" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Empty Cart navigation handled correctly]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCartNavigationWithEmptyCart -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:SwagLabsProductPage.ProductPage@9d5509a]" started-at="2026-10-10T11:49:39 IST" name="loginToApplication" finished-at="2026-10-10T11:49:46 IST" duration-ms="7516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyFilterDropDownSmokeTest()[pri:0, instance:SwagLabsProductPage.ProductPage@9d5509a]" started-at="2026-10-10T11:49:46 IST" name="verifyFilterDropDownSmokeTest" finished-at="2026-10-10T11:49:47 IST" duration-ms="571" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Random filter option selected and product added succesfully: Price (high to low)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyFilterDropDownSmokeTest -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:SwagLabsProductPage.ProductPage@9d5509a]" started-at="2026-10-10T11:49:47 IST" name="loginToApplication" finished-at="2026-10-10T11:49:54 IST" duration-ms="7477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyProductCanBeAddedAgainAfterRemoval()[pri:0, instance:SwagLabsProductPage.ProductPage@9d5509a]" started-at="2026-10-10T11:49:54 IST" name="verifyProductCanBeAddedAgainAfterRemoval" finished-at="2026-10-10T11:50:05 IST" duration-ms="10520" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Sauce Labs Backpack was removed and successfully added again]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductCanBeAddedAgainAfterRemoval -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:SwagLabsProductPage.ProductPage@9d5509a]" started-at="2026-10-10T11:50:05 IST" name="loginToApplication" finished-at="2026-10-10T11:50:12 IST" duration-ms="7535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyProductPageSmokeTest()[pri:0, instance:SwagLabsProductPage.ProductPage@9d5509a]" started-at="2026-10-10T11:50:12 IST" name="verifyProductPageSmokeTest" finished-at="2026-10-10T11:50:13 IST" duration-ms="295" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Product Page smoke test passed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductPageSmokeTest -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:SwagLabsProductPage.ProductPage@9d5509a]" started-at="2026-10-10T11:50:13 IST" name="loginToApplication" finished-at="2026-10-10T11:50:20 IST" duration-ms="7591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyProductPageTitleAndProductsDisplayed()[pri:0, instance:SwagLabsProductPage.ProductPage@9d5509a]" started-at="2026-10-10T11:50:20 IST" name="verifyProductPageTitleAndProductsDisplayed" finished-at="2026-10-10T11:50:20 IST" duration-ms="53" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Product title, product cards, names and prices are displayed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductPageTitleAndProductsDisplayed -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:SwagLabsProductPage.ProductPage@9d5509a]" started-at="2026-10-10T11:50:20 IST" name="loginToApplication" finished-at="2026-10-10T11:50:28 IST" duration-ms="7591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyProductToCartNavigation()[pri:0, instance:SwagLabsProductPage.ProductPage@9d5509a]" started-at="2026-10-10T11:50:28 IST" name="verifyProductToCartNavigation" finished-at="2026-10-10T11:50:28 IST" duration-ms="297" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Product Page successfully navigated to Cart Page with selected product]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductToCartNavigation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SwagLabsProductPage.ProductPage@9d5509a]" started-at="2026-10-10T11:50:28 IST" name="closeBrowser" finished-at="2026-10-10T11:50:31 IST" duration-ms="2375" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- SwagLabsProductPage.ProductPage -->
+      <class name="SwagLabsLoginPage.LoginPage">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:SwagLabsLoginPage.LoginPage@233795b6]" started-at="2026-10-10T11:47:58 IST" name="beforeSuite" finished-at="2026-10-10T11:47:58 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Swag Labs Test Suite Started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:SwagLabsLoginPage.LoginPage@233795b6]" started-at="2026-10-10T11:47:58 IST" name="beforeTest" finished-at="2026-10-10T11:47:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:SwagLabsLoginPage.LoginPage@233795b6]" started-at="2026-10-10T11:47:58 IST" name="launchBrowser" finished-at="2026-10-10T11:48:11 IST" duration-ms="12839" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Launched Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:SwagLabsLoginPage.LoginPage@233795b6]" started-at="2026-10-10T11:48:11 IST" name="openLoginPage" finished-at="2026-10-10T11:48:12 IST" duration-ms="1050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="verifyLoginControlsDisplayed()[pri:0, instance:SwagLabsLoginPage.LoginPage@233795b6]" started-at="2026-10-10T11:48:12 IST" name="verifyLoginControlsDisplayed" finished-at="2026-10-10T11:48:14 IST" duration-ms="2152" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Username, Password and Login controls are displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginControlsDisplayed -->
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:SwagLabsLoginPage.LoginPage@233795b6]" started-at="2026-10-10T11:48:14 IST" name="openLoginPage" finished-at="2026-10-10T11:48:15 IST" duration-ms="1051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="verifyLoginNavigatesToProductPage()[pri:0, instance:SwagLabsLoginPage.LoginPage@233795b6]" started-at="2026-10-10T11:48:15 IST" name="verifyLoginNavigatesToProductPage" finished-at="2026-10-10T11:48:23 IST" duration-ms="7409" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login successfully navigated to Product Page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginNavigatesToProductPage -->
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:SwagLabsLoginPage.LoginPage@233795b6]" started-at="2026-10-10T11:48:23 IST" name="openLoginPage" finished-at="2026-10-10T11:48:24 IST" duration-ms="1051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="verifyLoginSmokeTest()[pri:0, instance:SwagLabsLoginPage.LoginPage@233795b6]" started-at="2026-10-10T11:48:24 IST" name="verifyLoginSmokeTest" finished-at="2026-10-10T11:48:30 IST" duration-ms="6495" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login smoke test passed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginSmokeTest -->
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:SwagLabsLoginPage.LoginPage@233795b6]" started-at="2026-10-10T11:48:30 IST" name="openLoginPage" finished-at="2026-10-10T11:48:31 IST" duration-ms="1056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="verifyValidLogin()[pri:0, instance:SwagLabsLoginPage.LoginPage@233795b6]" started-at="2026-10-10T11:48:31 IST" name="verifyValidLogin" finished-at="2026-10-10T11:48:38 IST" duration-ms="6570" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Valid login successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:SwagLabsLoginPage.LoginPage@233795b6]" started-at="2026-10-10T11:48:38 IST" name="openLoginPage" finished-at="2026-10-10T11:48:39 IST" duration-ms="1048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="verifyInvalidUsername()[pri:1, instance:SwagLabsLoginPage.LoginPage@233795b6]" started-at="2026-10-10T11:48:39 IST" name="verifyInvalidUsername" finished-at="2026-10-10T11:48:46 IST" duration-ms="7692" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Invalid username validation verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidUsername -->
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:SwagLabsLoginPage.LoginPage@233795b6]" started-at="2026-10-10T11:48:46 IST" name="openLoginPage" finished-at="2026-10-10T11:48:48 IST" duration-ms="1063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="verifyBlankUsername()[pri:2, instance:SwagLabsLoginPage.LoginPage@233795b6]" started-at="2026-10-10T11:48:48 IST" name="verifyBlankUsername" finished-at="2026-10-10T11:48:54 IST" duration-ms="6473" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Blank username validation verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyBlankUsername -->
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:SwagLabsLoginPage.LoginPage@233795b6]" started-at="2026-10-10T11:48:54 IST" name="openLoginPage" finished-at="2026-10-10T11:48:55 IST" duration-ms="1040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="verifyInvalidPassword()[pri:3, instance:SwagLabsLoginPage.LoginPage@233795b6]" started-at="2026-10-10T11:48:55 IST" name="verifyInvalidPassword" finished-at="2026-10-10T11:49:02 IST" duration-ms="6609" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Invalid password validation verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidPassword -->
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:SwagLabsLoginPage.LoginPage@233795b6]" started-at="2026-10-10T11:49:02 IST" name="openLoginPage" finished-at="2026-10-10T11:49:03 IST" duration-ms="1052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="verifyBlankPassword()[pri:4, instance:SwagLabsLoginPage.LoginPage@233795b6]" started-at="2026-10-10T11:49:03 IST" name="verifyBlankPassword" finished-at="2026-10-10T11:49:09 IST" duration-ms="6413" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Blank password validation verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyBlankPassword -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SwagLabsLoginPage.LoginPage@233795b6]" started-at="2026-10-10T11:49:09 IST" name="closeBrowser" finished-at="2026-10-10T11:49:12 IST" duration-ms="2389" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:SwagLabsLoginPage.LoginPage@233795b6]" started-at="2026-10-10T11:57:06 IST" name="AfterSuite" finished-at="2026-10-10T11:57:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuite -->
+      </class> <!-- SwagLabsLoginPage.LoginPage -->
+    </test> <!-- SwagLabs Batch Tests -->
+  </suite> <!-- SwagLabs Batch Execution Suite -->
+</testng-results>

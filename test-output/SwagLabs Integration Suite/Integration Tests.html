@@ -1,0 +1,164 @@
+<html>
+<head>
+<title>TestNG:  Integration Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Integration Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Oct 09 10:24:26 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>105 seconds (105974 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>integration </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='SwagLabsProductPage.ProductPage.verifyProductToCartNavigation()'><b>verifyProductToCartNavigation</b><br>Test class: SwagLabsProductPage.ProductPage<br/>
+<a href="#Output-145329976" onClick='toggleBox("Output-145329976", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-145329976" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-145329976">
+Product Page successfully navigated to Cart Page with selected product<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>SwagLabsProductPage.ProductPage@26794848</td></tr>
+<tr>
+<td title='SwagLabsCheckOutPage.CheckoutPage.verifyCheckoutOverviewToCheckoutCompleteIntegration()'><b>verifyCheckoutOverviewToCheckoutCompleteIntegration</b><br>Test class: SwagLabsCheckOutPage.CheckoutPage<br/>
+<a href="#Output-823263265" onClick='toggleBox("Output-823263265", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-823263265" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-823263265">
+Checkout Overview successfully completed the order and displayed confirmation<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>SwagLabsCheckOutPage.CheckoutPage@3d285d7e</td></tr>
+<tr>
+<td title='SwagLabsCheckOutPage.CheckoutPage.verifyCheckoutCompleteToHomeIntegration()'><b>verifyCheckoutCompleteToHomeIntegration</b><br>Test class: SwagLabsCheckOutPage.CheckoutPage<br/>
+<a href="#Output-1643565953" onClick='toggleBox("Output-1643565953", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1643565953" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1643565953">
+Checkout Complete successfully navigated back to Product Page<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>SwagLabsCheckOutPage.CheckoutPage@3d285d7e</td></tr>
+<tr>
+<td title='SwagLabsHamburgerMenuPage.HamburgerMenuPage.verifyLogoutNavigatesToLoginPage()'><b>verifyLogoutNavigatesToLoginPage</b><br>Test class: SwagLabsHamburgerMenuPage.HamburgerMenuPage<br/>
+<a href="#Output-1678557259" onClick='toggleBox("Output-1678557259", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1678557259" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1678557259">
+Logout successfully navigated the user to Login Page<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>SwagLabsHamburgerMenuPage.HamburgerMenuPage@40005471</td></tr>
+<tr>
+<td title='SwagLabsLoginPage.LoginPage.verifyLoginNavigatesToProductPage()'><b>verifyLoginNavigatesToProductPage</b><br>Test class: SwagLabsLoginPage.LoginPage<br/>
+<a href="#Output-354268551" onClick='toggleBox("Output-354268551", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-354268551" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-354268551">
+Login successfully navigated to Product Page<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>SwagLabsLoginPage.LoginPage@3bf7ca37</td></tr>
+<tr>
+<td title='SwagLabsCheckOutPage.CheckoutPage.verifyCartToCheckoutIntegration()'><b>verifyCartToCheckoutIntegration</b><br>Test class: SwagLabsCheckOutPage.CheckoutPage<br/>
+<a href="#Output-173175486" onClick='toggleBox("Output-173175486", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-173175486" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-173175486">
+Cart Page successfully navigated to Checkout Information Page<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>SwagLabsCheckOutPage.CheckoutPage@3d285d7e</td></tr>
+<tr>
+<td title='SwagLabsCartPage.CartPage.verifyCartToCheckoutIntegration()'><b>verifyCartToCheckoutIntegration</b><br>Test class: SwagLabsCartPage.CartPage<br/>
+<a href="#Output-1753542873" onClick='toggleBox("Output-1753542873", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1753542873" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1753542873">
+Cart Page navigated to Checkout Page successfully<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>SwagLabsCartPage.CartPage@302552ec</td></tr>
+</table><p>
+</body>
+</html>
